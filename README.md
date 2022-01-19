@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+
+Запускать с помощью angular Cli командой ng serve
+
 # Marker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
