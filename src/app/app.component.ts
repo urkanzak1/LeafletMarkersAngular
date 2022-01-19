@@ -1,16 +1,7 @@
 import { HttpClient} from '@angular/common/http';
 import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { tileLayer, latLng, MapOptions, marker, Layer, LatLng, icon } from 'leaflet';
-
-interface Marker {
-  id: number
-  // Широта
-  latitude: number
-  // Долгота
-  longitude: number
-  // Имя
-  name: string
-}
+import { Marker } from './models/Marker';
 
 @Component({
   selector: 'app-root',
